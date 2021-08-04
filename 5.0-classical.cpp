@@ -9,8 +9,8 @@ int main(void)
 	no1 = no;
 	while (no != 0)
 	{
-		no /= 10;
-		i++;
+		no /= 10;     /* 用来判断右移的位数 */
+		i++;          /*进而来解释i的逐级自加的次数*、
 	}
 	printf("%d的位数是%d\n", no1, i);  /*此处的no1的目的就是为了表示输入的数字*/
 	return 0;
