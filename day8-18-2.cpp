@@ -1,7 +1,7 @@
 //解锁新的技术
 #include <stdio.h>
 
-#define NUMBER 5   //看来此处的number是否大写都不重要啊！
+#define NUMBER 5   //此处指的是学生的人数。
 int main(void)     // 其实那个新的定义就是等于5 这个数字
 {
 	int i;
